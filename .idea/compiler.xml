@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="dpsf-net" />
+        <module name="pigeon-common" />
+        <module name="pigeon-config" />
+        <module name="pigeon-config-lion" />
+        <module name="pigeon-console" />
+        <module name="pigeon-demo" />
+        <module name="pigeon-governor-api" />
+        <module name="pigeon-governor-server" />
+        <module name="pigeon-monitor" />
+        <module name="pigeon-monitor-cat" />
+        <module name="pigeon-registry" />
+        <module name="pigeon-registry-mns" />
+        <module name="pigeon-registry-zookeeper" />
+        <module name="pigeon-remoting" />
+        <module name="pigeon-remoting-http" />
+        <module name="pigeon-remoting-netty" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="dpsf-net" target="1.6" />
+      <module name="pigeon-common" target="1.6" />
+      <module name="pigeon-config" target="1.6" />
+      <module name="pigeon-config-lion" target="1.6" />
+      <module name="pigeon-console" target="1.6" />
+      <module name="pigeon-demo" target="1.6" />
+      <module name="pigeon-extensions" target="1.6" />
+      <module name="pigeon-governor" target="1.6" />
+      <module name="pigeon-governor-api" target="1.6" />
+      <module name="pigeon-governor-server" target="1.6" />
+      <module name="pigeon-monitor" target="1.6" />
+      <module name="pigeon-monitor-cat" target="1.6" />
+      <module name="pigeon-parent" target="1.6" />
+      <module name="pigeon-registry" target="1.6" />
+      <module name="pigeon-registry-mns" target="1.6" />
+      <module name="pigeon-registry-zookeeper" target="1.6" />
+      <module name="pigeon-remoting" target="1.6" />
+      <module name="pigeon-remoting-http" target="1.6" />
+      <module name="pigeon-remoting-netty" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
